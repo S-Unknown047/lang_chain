@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 llm = HuggingFaceEndpoint(
-    repo_id="Qwen/Qwen3.8-2.4T-A95B",
+    repo_id="OBLITERATUS/Qwen3.8-27B-OBLITERATED",
     task="text-generation"
 )
 class Review(TypedDict):
