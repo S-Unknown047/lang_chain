@@ -7,8 +7,9 @@ from dotenv import load_dotenv
 
 #     Low Temperature (0.0 – 0.3): Focused & Deterministic
 
-#         The model almost always picks the most mathematically probable next word.
-
+#         The model almost always picks the most mathematically probable next word
+#         give same output for the same input if temprature is low give if temprature is high can give different
+#         output for same input
 #         Outputs are predictable, factual, and consistent.
 
 #         Best for: Coding, math, JSON formatting, factual Q&A.
